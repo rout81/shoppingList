@@ -32,8 +32,6 @@ const addlist = (e) => {
 const linethrough = () => {
   for(let i = 0; i <li.length; i++) {
     li[i].addEventListener('click', changeclass);
-    const btnclass = document.querySelector('.btn');
-    btnclass.classList.add('.removelinethrough');
   }
 }
 
